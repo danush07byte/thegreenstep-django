@@ -2,26 +2,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>The Green Step</title>
+    <title>The Green Step - SDG 13</title>
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
 
-<h1>The Green Step</h1>
+<header>
+    <div class="container">
+        <h1>The Green Step</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about/">About</a>
+            <a href="/register/">Register</a>
+        </nav>
+    </div>
+</header>
 
-<nav>
-    <a href="/">Home</a> |
-    <a href="/about/">About</a> |
-    <a href="/register/">Register</a>
-</nav>
+<div class="container">
 
-<hr>
+    <section class="hero">
 
-<h2>Welcome to Climate Action Awareness</h2>
+        <img src="{% static 'images/climate-banner.jpg' %}" alt="Climate Action Banner">
 
-<p>
-Together we can protect our planet and build a greener future.
-</p>
+        <h2>SDG 13: Climate Action</h2>
+
+        <p>
+            The Green Step is a climate awareness platform that encourages people to take action
+            against climate change through education, volunteering, and sustainable daily habits.
+        </p>
+
+        <a class="btn" href="/register/">Join Our Campaign</a>
+
+    </section>
+
+    <section class="section">
+        <h2>What is SDG 13?</h2>
+        <p>
+            Sustainable Development Goal 13 focuses on taking urgent action to combat climate change
+            and its impacts. Climate change affects weather patterns, sea levels, food production,
+            health, and communities around the world.
+        </p>
+    </section>
+
+    <section class="section">
+        <h2>Why Climate Action Matters</h2>
+        <p>
+            Climate action is important because rising temperatures can cause floods, droughts,
+            heat waves, and damage to natural ecosystems. By taking action now, communities can
+            reduce environmental damage and protect future generations.
+        </p>
+    </section>
+
+    <section class="cards">
+        <section class="cards">
+
+    <div class="card">
+        <img src="{% static 'images/recycle.jpg' %}" alt="Reduce Waste">
+        <h3>♻️ Reduce Waste</h3>
+        <p>Practice recycling, reduce plastic use, and support responsible consumption.</p>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'images/tree.jpg' %}" alt="Plant Trees">
+        <h3>🌳 Plant Trees</h3>
+        <p>Trees absorb carbon dioxide and help improve air quality.</p>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'images/solar.jpg' %}" alt="Save Energy">
+        <h3>☀️ Save Energy</h3>
+        <p>Use electricity wisely and support renewable energy such as solar power.</p>
+    </div>
+
+</section>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 The Green Step | SDG 13 Climate Action</p>
+</footer>
 
 </body>
 </html>

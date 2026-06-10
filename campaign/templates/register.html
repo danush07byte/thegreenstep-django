@@ -2,33 +2,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Register</title>
+    <title>Volunteer Registration</title>
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
 
-<h1>Volunteer Registration</h1>
+<header>
+    <div class="container">
+        <h1>Volunteer Registration</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about/">About</a>
+            <a href="/register/">Register</a>
+        </nav>
+    </div>
+</header>
 
-<nav>
-    <a href="/">Home</a> |
-    <a href="/about/">About</a> |
-    <a href="/register/">Register</a>
-</nav>
+<div class="container">
 
-<hr>
+    <section class="section">
+        <h2>Join Our Climate Action Community</h2>
 
-{% if success %}
-<p>Thank you for your submission.</p>
-{% endif %}
+        <p>
+            Register as a volunteer and help support environmental campaigns,
+            tree planting activities, recycling programmes, and climate awareness events.
+        </p>
 
-<form method="POST">
-    {% csrf_token %}
-    {{ form.as_p }}
+        {% if success %}
+        <div class="success-message">
+            <h3>Thank you for registering as a volunteer!</h3>
+            <p>Your information has been successfully submitted.</p>
+        </div>
+        {% endif %}
 
-    <button type="submit">
-        Submit
-    </button>
-</form>
+        <form method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+
+            <button type="submit">Submit Registration</button>
+        </form>
+
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 The Green Step | SDG 13 Climate Action</p>
+</footer>
 
 </body>
 </html>
