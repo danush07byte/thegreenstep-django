@@ -1,6 +1,10 @@
- The Green Step – SDG 13 Climate Action
+The Green Step – SDG 13 Climate Action
 
-Student Name: Danush Saravanakkumar
+Student Name: Danush A/L Saravanakkumar
+
+Matrics Number: BCM 2410-2211
+
+Assignment: Assignment 3 SDG Mini Web Application using Django
 
 Project Title: The Green Step – SDG 13 Climate Action Awareness Website
 
@@ -11,8 +15,11 @@ Live Website (Render):
 https://thegreenstep-django.onrender.com
 
 https://thegreenstep-django.onrender.com/admin/
+
 Username: danush
+
 Password: deepseek
+
 
 Project Description
 
