@@ -11,6 +11,8 @@ Live Website (Render):
 https://thegreenstep-django.onrender.com
 
 https://thegreenstep-django.onrender.com/admin/
+Username: danush
+Password: deepseek
 
 Project Description
 
